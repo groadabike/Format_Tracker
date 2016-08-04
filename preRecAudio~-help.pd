@@ -1,0 +1,18 @@
+#N canvas 252 89 525 464 12;
+#X obj 144 254 preRecAudio~;
+#X obj 144 221 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 137 322 output~;
+#X text 91 98 in order to start or stop an audio recorder;
+#X text 87 400 The Left Outlet is the audio signal from an audio file
+;
+#X obj 226 220 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X text 92 78 The Left Inlet recieve value 1 or 0;
+#X text 93 134 The Right Inlet recieve value 1 or 0;
+#X text 92 154 in order to start or stop a loop;
+#X text 203 34 PRERECAUDIO~ HELP;
+#X connect 0 0 2 1;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
+#X connect 5 0 0 1;

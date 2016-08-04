@@ -1,0 +1,10 @@
+#N canvas 563 97 450 300 12;
+#X text 165 33 MYOUTPUT~ HELP;
+#X obj 156 144 myoutput~;
+#X obj 157 90 adc~;
+#X floatatom 158 199 5 0 0 0 - - -;
+#X text 241 106 Inlet enter audio signal;
+#X text 247 202 Outlet send value of Volume;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 2 1 1 1;

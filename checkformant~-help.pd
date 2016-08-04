@@ -1,0 +1,11 @@
+#N canvas 0 0 450 300 12;
+#X obj 163 213 checkformant~;
+#X text 158 22 CHECKFORMANT~ HELP;
+#X text 76 58 INLET;
+#X text 75 72 1 Enter Signal;
+#X text 74 114 OUTLET;
+#X text 75 89 2 Enter 1 or 0 in order to activate;
+#X text 73 129 1 Histogram for Formant 1;
+#X text 73 145 2 Histogram for Formant 2;
+#X text 71 162 3 Average of Hz of Formant 1;
+#X text 71 178 4 Average of Hz of Formant 2;

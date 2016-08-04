@@ -1,0 +1,9 @@
+#N canvas 4 6 450 300 12;
+#X obj 158 120 checkformant~-help;
+#X obj 158 149 myoutput~-help;
+#X obj 158 178 preRecAudio~-help;
+#X obj 157 208 vocalTrack~-help;
+#X obj 158 237 voicedtime~-help;
+#X text 151 20 ASSIGNMENT 1 HELP;
+#X text 74 67 The help for each of them are below;
+#X text 73 49 For the assignment 1 I create 5 patch;
