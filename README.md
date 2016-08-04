@@ -1,2 +1,6 @@
-# Format_Tracker
-Pure Data Formant Tracker
+# Format Tracker
+Pure Data implementation of a Formant Tracker
+
+**Use:**
+Call main.pd
+
